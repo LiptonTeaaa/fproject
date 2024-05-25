@@ -1,0 +1,370 @@
+.header1 {
+    background-color: rgb(37, 184, 49);
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.logo {
+    color: white;
+    font-size: 70px;
+}
+a {
+    text-decoration: none;
+}
+.number {
+    color: white;
+    font-size: 40px;
+}
+.b1 {
+    color: white;
+    background-color: rgb(37, 185, 173);
+    font-size: 30px;
+    padding: 15px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: 1s;
+}
+.b2 {
+    color: white;
+    border: 3px solid white;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: brown;
+    transition: 1s;
+}
+.b2:hover, .b1:hover {
+    box-shadow: 2px 2px 10px black;
+}
+.kursi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1 {
+    width: 400px;
+    height: 400px;
+}
+.f2 {
+    width: 400px;
+    height: 400px;
+}
+.f3 {
+    width: 400px;
+    height: 400px;
+}
+body {
+    background-color: rgb(37, 184, 49);
+}
+.kurs {
+    background-color: white;
+    border: 3px solid black;
+    margin: 0px 50px;
+    padding: 50px;
+    border-radius: 50px;
+    transition: 1s;
+    text-align: center;
+    font-size: 20px;
+}
+.kurs:hover, .uch1:hover, .kuurs:hover, .dost:hover, .mycontact:hover, .mycard:hover {
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.705);
+}
+.mtxt {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.main1 {
+    border-top: 3px solid white;
+}
+.f4 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.f5 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.f6 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.uchitela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uch1 {
+    background-color: white;
+    margin: 0px 100px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 100px;
+    border: 2px solid black;
+    transition: 1s;
+}
+.polosa {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.polosa p {
+    color: black;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.473);
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.ftxt {
+    margin: 10px 0px;
+    color: rgba(255, 255, 255, 0.473);
+}
+.contact:hover, .myc:hover {
+    color: rgb(37, 184, 49);
+}
+.donca {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.form {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input {
+    width: 125px;
+    height: 50px;
+    margin: 20px 0px;
+    border: 3px solid black;
+    background-color: white;
+}
+.form22 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aaaa {
+    width: 125px;
+    height: 25px;
+    background-color: rgb(37, 184, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.aaa {
+    text-decoration: none;
+    color: white;
+}
+.vvxx {
+    color: black;
+    font-size: 30px;
+}
+.header2 {
+    background-color: rgb(37, 184, 49);
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.moikursi {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    background-color: rgb(32, 187, 226);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.kuurs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(37, 184, 49);
+    transition: 1s;
+}
+.dostijeni {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    background-color: rgb(32, 187, 226);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.mainkurs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(37, 184, 49);
+    transition: 1s;
+}
+.f8 {
+    width: 100px;
+    height: 100px;
+}
+.main5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mycard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 40px 30px 40px 0px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 300px;
+    transition: 1s;
+}
+.mycontact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 40px 0px 40px 0px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 300px;
+    transition: 1s;
+}
+.myc {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    transition: 0.5s;
+}
+.btxt {
+    color: black;
+    font-size: 30px;
+}
+.mycc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mytch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 480px) {
+    .mytch {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .mycc {
+        flex-direction: column;
+    }
+    .header2 {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .header1 {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .buttons1 {
+        display: none;
+    }
+    .kursi {
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .mtxt {
+        margin-left: 40px;
+    }
+    .polosa {
+        margin-left: 20px;
+    }
+    .polosa .mtxt {
+        margin-left: 0px;
+    }
+    footer {
+        width: 530px;
+    }
+    .uchitela {
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .uch1, .kurs {
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    .f1, .f2, .f3 {
+        width: 200px;
+        height: 250px;
+    }
+    .mainkurs {
+        flex-direction: column;
+    }
+    .moikursi{
+        width: 80%;
+    }
+    .dostijeni {
+        width: 80%;
+    }
+    .mycard{
+        margin-right: 0px;
+    }
+}
